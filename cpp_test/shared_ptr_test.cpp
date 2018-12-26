@@ -1,109 +1,34 @@
 #include <iostream>
-#include <set>
-#include <string>
-#include <map>
-#include <boost/shared_ptr.hpp>
+#include <assert.h>
+#include <memory>
 
 using namespace std;
 
-class Test
-{
-public:
-	Test(string str):name(str) {cout << "Test() " << name << endl;}
-	Test() {cout << "Test() " << endl;}
-	~Test() {cout << "~Test() " << name << endl;}
-
-	void print() const { cout << "name is " << name << endl; }
-private:
-	string name;
-};
-
-typedef boost::shared_ptr<Test> SharedTest;
-
-void f_bad()
-{
-	Test *t = new Test("bad");
-}
-
-void unPack()
-{
-	cout << "unPack()" << endl;
-}
-
-void f_good()
-{
-	SharedTest test(new Test);
-
-}
-
-void test_scope1()
-{
-	cout << "=================f_bad()===================" << endl;
-	f_bad();
-	cout << "=================f_bad()===================" << endl;
-
-	cout << "=================f_good()===================" << endl;
-	f_good();
-	cout << "=================f_good()===================" << endl;
-
-}
-
-typedef boost::shared_ptr<Test> testPtr;
-typedef std::map<int, testPtr> testMap;
-typedef std::set<int> ID;
-
-testMap myMap;
-
-void fun()
-{
-	ID ids;
-	testPtr ptr(new Test("July"));
-	ID::iterator it;
-	for (int i = 0; i < 10; ++i)
-	{
-		ids.insert(i);
-	}
-
-	for (it = ids.begin(); it != ids.end(); ++it)
-	{
-		myMap[*it] = ptr;
-	}	
-
-	cout << "use count = " << ptr.use_count() << endl;
-	ptr->print();
-
-}
-
-const testPtr getTestPtr(int value)
-{
-	testMap::iterator iter;
-	iter = myMap.find(value);	
-
-	if (iter != myMap.end())
-	{
-		cout << iter->first << endl;
-		return iter->second;	
-	}
-
-	return testPtr();
-}
-
 int main()
 {
-	fun();
+	shared_ptr<int> sp(new int(10));
+	shared_ptr<int> sp1(new int(20));
 
-	testPtr ptr;
-	ptr = getTestPtr(1);
+	assert(sp.unique());
 
-	if (ptr == NULL)
-	{
-		cout << "shared ptr is NULL" << endl;
-	}
-	else
-	{
-		cout << "use count = " << ptr.use_count() << endl;
-		ptr->print();
-		testPtr p = ptr;
-		cout << "use count = " << ptr.use_count() << endl;
-	}
+	shared_ptr<int> sp2 = sp;
+	assert(sp == sp2 && sp.use_count() == 2);
+
+	*sp2 = 100;
+	assert(*sp == 100);
+
+	sp2 = sp1;
+	assert(!sp1.unique());
+
+	cout << "sp use_count: " << sp.use_count() << endl;
+
+	sp.reset();
+	cout << "sp use_count: " << sp.use_count() << endl;
+	cout << "sp1 use_count: " << sp1.use_count() << endl;
+	cout << "sp2 use_count: " << sp2.use_count() << endl;
+	assert(*sp2 == 20);
+
+	//cout << "*sp = " << *sp << " *sp2 = " << *sp2 << endl;
+
 }
+
