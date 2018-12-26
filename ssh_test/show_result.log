@@ -1,0 +1,1170 @@
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374592          0    1680584498            0
+        Output:   57409204627          0 53974634771968            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374592          0    1680584498            0
+        Output:   57409204630          0 53974634772106            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374592          0    1680584498            0
+        Output:   57409204635          0 53974634772336            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374597          0    1680584846            0
+        Output:   57409205813          0 53974634865234            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374597          0    1680584846            0
+        Output:   57409205818          0 53974634865464            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374597          0    1680584846            0
+        Output:   57409205819          0 53974634865510            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374597          0    1680584846            0
+        Output:   57409205822          0 53974634865648            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374597          0    1680584846            0
+        Output:   57409205857          0 53974634868622            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374605          0    1680585414            0
+        Output:   57409207299          0 53974634982178            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374606          0    1680585486          328
+        Output:   57409207302          0 53974634982316            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374607          0    1680585558            0
+        Output:   57409208187          0 53974635052100            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374607          0    1680585558            0
+        Output:   57409208193          0 53974635052376            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374611          0    1680585846            0
+        Output:   57409208737          0 53974635095368            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374611          0    1680585846            0
+        Output:   57409208771          0 53974635098296            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374611          0    1680585846            0
+        Output:   57409208950          0 53974635112080            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374611          0    1680585846            0
+        Output:   57409208953          0 53974635112218            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374611          0    1680585846            0
+        Output:   57409209282          0 53974635138384            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374611          0    1680585846            0
+        Output:   57409209285          0 53974635138522            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374611          0    1680585846            0
+        Output:   57409209324          0 53974635141680            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374615          0    1680586134            0
+        Output:   57409209494          0 53974635155072            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374615          0    1680586134            0
+        Output:   57409209497          0 53974635155236            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374615          0    1680586134            0
+        Output:   57409209498          0 53974635155282            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   "+%Y-%m-%d %H:%M:%S"
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374634          0    1680587482            0
+        Output:   57409213671          0 53974635484146            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   "+%Y-%m-%d %H:%M:%S"
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374634          0    1680587482            0
+        Output:   57409213798          0 53974635494148            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> can't read "date": no such variable
+    while executing
+"send "$date\r""
+    (file "./show.exp" line 14)
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   "+%Y-%m-%d %H:%M:%S"
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374646          0    1680588346            0
+        Output:   57409217055          0 53974635750390            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   " +%Y-%m-%d %H:%M:%S"
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374646          0    1680588346            0
+        Output:   57409217349          0 53974635773624            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   "+%Y-%m-%d %H:%M:%S"
+                   ^
+unknown command.
+erv@semopcgwbgw02> date"+%Y-%m-%d %H:%M:%S"   
+error: unknown command: date+%Y-%m-%d %H:%M:%S
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374652          0    1680588770            0
+        Output:   57409218022          0 53974635826748            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   '+%Y-%m-%d
+                   ^
+unknown command.
+erv@semopcgwbgw02> date'+%Y-%m-%d   %H:%M:%S'
+                   ^
+unknown command.
+erv@semopcgwbgw02> date'+%Y-%m-%d%H:%M:%S'   
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374652          0    1680588770            0
+        Output:   57409218441          0 53974635859850            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   '%Y-%m-%d
+                   ^
+unknown command.
+erv@semopcgwbgw02> date'%Y-%m-%d   %H:%M:%S'
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374652          0    1680588770            0
+        Output:   57409218872          0 53974635893552            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   +'%Y-%m-%d
+                   ^
+unknown command.
+erv@semopcgwbgw02> date+'%Y-%m-%d   %H:%M:%S'
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374656          0    1680589058            0
+        Output:   57409219165          0 53974635916672            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> date
+                   ^
+unknown command.
+erv@semopcgwbgw02> date   +'%Y-%m-%d
+                   ^
+unknown command.
+erv@semopcgwbgw02> date+'%Y-%m-%d   %H:%M:%S'
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374660          0    1680589346            0
+        Output:   57409220131          0 53974635992904            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> echo
+                   ^
+unknown command.
+erv@semopcgwbgw02> echo   `date
+                   ^
+unknown command.
+erv@semopcgwbgw02> echo`date   +'%Y-%m-%d
+                   ^
+unknown command.
+erv@semopcgwbgw02> echo`date+'%Y-%m-%d   %H:%M:%S'`
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374662          0    1680589490          288
+        Output:   57409221013          0 53974636062734            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.
+spawn ssh erv@semopcgwbgw02
+Warning: Permanently added 'semopcgwbgw02,10.132.242.158' (ECDSA) to the list of known hosts.
+Password:
+X11 forwarding request failed on channel 0
+--- JUNOS 13.3R3-S2.3 built 2014-09-06 21:49:56 UTC
+erv@semopcgwbgw02> echo
+                   ^
+unknown command.
+erv@semopcgwbgw02> echo   'hello'
+                   ^
+unknown command.
+
+erv@semopcgwbgw02> show interfaces ae1.3854 
+  Logical interface ae1.3854 (Index 391) (SNMP ifIndex 676)
+    Description: grp1-vlan3854
+    Flags: Up SNMP-Traps 0x4000 VLAN-Tag [ 0x8100.3854 ]  Encapsulation: ENET2
+    Statistics        Packets        pps         Bytes          bps
+    Bundle:
+        Input :      15374664          0    1680589634            0
+        Output:   57409221347          0 53974636089130            0
+    Adaptive Statistics:
+        Adaptive Adjusts:          0
+        Adaptive Scans  :          0
+        Adaptive Updates:          0
+    Protocol inet, MTU: 1500
+      Flags: Sendbcast-pkt-to-re, Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 11.0.4/24, Local: 11.0.4.254, Broadcast: 11.0.4.255
+    Protocol inet6, MTU: 1500
+      Flags: Is-Primary
+      Addresses, Flags: Is-Default Is-Preferred Is-Primary
+        Destination: 2a00:11:0:4::/64, Local: 2a00:11:0:4::254
+      Addresses, Flags: Is-Preferred
+        Destination: fe80::/64, Local: fe80::21f:120f:e74:6ff1
+    Protocol multiservice, MTU: Unlimited
+
+erv@semopcgwbgw02> exit 
+
+Connection to semopcgwbgw02 closed.

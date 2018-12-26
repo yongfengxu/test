@@ -1,0 +1,35 @@
+Introduction
+------------
+
+ESC ("Ericsson StateChart") is a language for specifying state
+machines (a.k.a. statecharts), as well as a suite of tools for working
+with them.
+
+ESC statecharts are written in *.esc files. The following tools and
+frameworks are provided:
+
+escgen.py     a code generator that parses an .esc file and generates
+              C++ code that implements the behaviour of the statechart
+
+esc2image.py  a diagram generator that parses an .esc file and
+              generates one or more diagrams for the statechart
+
+EscEditor     an Eclipse plugin that integrates everything and
+              provides functionality such as jumping between the code
+              in the .esc file, the diagram view and the generated
+              C++ code
+
+esc-mode.el   an Emacs library providing an ESC major mode as well as
+              support for rendering the state machine in an Emacs
+              buffer
+
+libesc        A C++ support library that is used by the generated C++
+              code and hooks it into the EPG code
+
+The documentation is divided into these parts:
+
+esc_language_reference.txt
+- A reference of all the syntax and keywords of the ESC language.
+
+cpp_esc_integration.txt
+- Information about integration of ESC code and C++ code

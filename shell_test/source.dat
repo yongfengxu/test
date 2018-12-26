@@ -1,0 +1,38 @@
+ ASSERT_EQ(agentStub.waitForDeleteGatewayReq());
+    ASSERT_EQ(agentStub.getLastPrimaryGwHandle() == gwHandle);
+    // Signal that GIFM is ready to receive routes
+    agentTx->onConnected();
+    agentTx->onServiceReadyEvent();
+    ASSERT_TRUE(agentStub.waitForCreateGatewayReq());
+    const unsigned int gwHandle = 13;
+    agentTx->onCreateGatewayRsp(agentStub.getLastReqId(), gwHandle, InternalInterfaceForwardingMgmt::Success);
+
+    ASSERT_EQ(agentStub.waitForCreateGatewayReq());
+    agentTx->onCreateGatewayRsp(agentStub.getLastReqId(), gwHandle, InternalInterfaceForwardingMgmt::Success);
+
+    // First, wait for the IpContextLookupReq
+    ASSERT_TRUE(agentStub.waitForIpContextLookupReq());
+    ASSERT_EQ(agentStub.getLastContextName(), routingInstanceName);
+    agentTx->onIpContextLookupRsp(agentStub.getLastReqId(), InternalInterfaceForwardingMgmt::Success, contextId);
+
+    // Wait for Ifm agent to receive the response
+    ASSERT_TRUE(agentStub.waitForMapMbmsgwPpbIpToGwReq());
+
+    ASSERT_EQ(agentStub.getLastIpAddress(), ipAddress);
+    ASSERT_EQ(agentStub.getLastPrimaryGwHandle(), gwHandle);
+    ASSERT_EQ(agentStub.getLastContextId(), contextId);
+    ASSERT_EQ(agentStub.getLastInterfaceType(), interfaceType);
+
+    //Validate response
+    agentTx->onMapMbmsgwPpbIpToGwRsp(agentStub.getLastReqId(), InternalInterfaceForwardingMgmt::Success);
+
+    // Wait for the tx to receive the response
+    ASSERT_EQ(rmControllerTxStub.waitForOnAddMbmsgwPpbRouteRsp());
+
+    // validate response to user of RouteMgmtController
+    ASSERT_EQ(rmControllerTxStub.addRouteRspCount_, 1);
+    ASSERT_EQ(rmControllerTxStub.lastAddRouteReqId_, reqId);
+    ASSERT_EQ(rmControllerTxStub.lastAddRouteRspSuccess_);
+    // c-style typecast to avoid compiler warning, since its fundamental type and in unittest it should be safe
+    ASSERT_EQ(rmControllerTxStub.lastAddRouteRoutingInstance_.getRtid(), (const int)contextId);
+

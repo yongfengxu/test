@@ -1,0 +1,8 @@
+Cppincludes
+    "function.h"	
+
+StateMachine HelloWorld
+    default-> Hello
+
+    Hello / cout << "hello world" << endl;
+	
