@@ -1,8 +1,17 @@
 
-CXX=/app/gcc/4.8.1/LMWP3/bin/g++ -std=c++11 -g
 #TEST_BASE_PATH=~/test/advanced_cpp
 TEST_BASE_PATH=./
 
+CC      := gcc
+CXX     := clang++
+LIBS    :=
+LDFLAGS :=
+DEFINES :=
+INCLUDE := -I.
+CFLAGS  := -g -std=c++11 -fsanitize=address -fsanitize-address-use-after-scope -fno-omit-frame-pointer -Wall -O $(DEFINES) $(INCLUDE)
+#CXX=/app/gcc/4.8.1/LMWP3/bin/g++ -std=c++11 -g
+#CXX=clang++ -std=c++11 -O -g -fsanitize=address -fsanitize-address-use-after-scope -fno-omit-frame-pointer
+CXXFLAGS:= $(CFLAGS) -DHAVE_CONFIG_H
 
 SOURCES := $(shell find $(TEST_BASE_PATH) -name "*.cpp" | xargs -i basename {})
 OBJECTS:= $(SOURCES:.cpp=.o)

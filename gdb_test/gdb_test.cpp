@@ -5,10 +5,11 @@
 class Type
 {
 public:
-    Type(int aa) : a(aa) {}
+    Type(int aa) : a(aa), b('a') {}
 
 private:
     int a;
+    char b;
 };
 
 
@@ -19,6 +20,6 @@ void fun(const Type& type)
 
 int main()
 {
-    Type type(1);
+    Type type(1324);
     fun(type);
 }

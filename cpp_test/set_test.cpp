@@ -107,7 +107,6 @@ int main()
 	{
 		cout << " key1 not < key2" << endl;
 	}
-*/
 
 	set<int> ids;
 	std::pair<set<int>::iterator, bool> pa;
@@ -128,4 +127,16 @@ int main()
   {
       cout << i << endl;
   }
+*/
+    std::set<std::pair<double, string>> mySet;
+
+    mySet.emplace(5.11, "a");
+    mySet.emplace(3.11, "b");
+    mySet.emplace(4.11, "c");
+    mySet.emplace(1.11, "d");
+
+    for (auto e : mySet)
+    {
+        std::cout << e.first << " " << e.second << std::endl;
+    }
 }
