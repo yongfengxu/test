@@ -4,7 +4,7 @@
 class IObserver
 {
 public:
-    virtual ~IObserver();
+    virtual ~IObserver() = default;
     virtual void display(int state) = 0;
 };
 

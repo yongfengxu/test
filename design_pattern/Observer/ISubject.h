@@ -7,7 +7,7 @@ class IObserver;
 class ISubject
 {
 public:
-    virtual ~ISubject();
+    virtual ~ISubject() = default; 
     virtual void attach(IObserver* o) = 0;
     virtual void detach(IObserver* o) = 0;
     virtual void update() = 0;
