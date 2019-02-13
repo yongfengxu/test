@@ -2,22 +2,22 @@
 #include <memory>
 #include <string>
 
-class ISubject;
+class IObservable;
 
 class ConcreteObserver: public IObserver
 {
 public:
-    ConcreteObserver(std::string name, ISubject* subject);
+    ConcreteObserver(std::string name, IObservable* observable);
     ~ConcreteObserver();
     void display(int state) override;
 
-    void setSubject(ISubject* subject);
+    void setObservable(IObservable* observable);
 
     void subscribe();
     void unsubscribe();
 
 private:
     std::string name_;
-    ISubject* subject_;
+    IObservable* observable_;
 
 };

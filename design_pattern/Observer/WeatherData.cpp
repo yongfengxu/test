@@ -10,16 +10,28 @@ void WeatherData::detach(IObserver* o)
     observers.remove(o);
 }
 
-void WeatherData::update()
+void WeatherData::notify()
 {
-    for(const auto& o: observers)
+    if (changed_)
     {
-        o->display(state_);
+        for(const auto& o: observers)
+        {
+            o->display(state_);
+        }
+
+        setChanged(false);
     }
+
+}
+
+void WeatherData::setChanged(bool flag)
+{
+    changed_ = flag;
 }
 
 void WeatherData::setState(int s)
 {
     state_ = s;
-    update();
+    setChanged(true);
+    notify();
 }

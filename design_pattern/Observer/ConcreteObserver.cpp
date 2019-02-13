@@ -1,8 +1,8 @@
 #include "ConcreteObserver.h"
-#include "ISubject.h"
+#include "IObservable.h"
 #include <iostream>
 
-ConcreteObserver::ConcreteObserver(std::string name, ISubject* subject):name_(name), subject_(subject)
+ConcreteObserver::ConcreteObserver(std::string name, IObservable* observable):name_(name), observable_(observable)
 {
     //subscribe();
 }
@@ -18,23 +18,23 @@ void ConcreteObserver::display(int state)
     std::cout << name_ << "'s state is " << state << std::endl;
 }
 
-void ConcreteObserver::setSubject(ISubject* subject)
+void ConcreteObserver::setObservable(IObservable* observable)
 {
 }
 
 void ConcreteObserver::subscribe()
 {
-    if (subject_)
+    if (observable_)
     {
-        subject_->attach(this);
+        observable_->attach(this);
     }
 }
 
 
 void ConcreteObserver::unsubscribe()
 {
-    if (subject_)
+    if (observable_)
     {
-        subject_->detach(this);
+        observable_->detach(this);
     }
 }
