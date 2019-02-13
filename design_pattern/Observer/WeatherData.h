@@ -13,6 +13,7 @@ public:
     void detach(IObserver* o) override;
     void notify() override;
     void setChanged(bool flag) override;
+    void pullSomething(IObserver& o) override;
 
     void setState(int s);
 

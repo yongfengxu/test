@@ -17,5 +17,10 @@ int main()
     ob2->unsubscribe();
     weather->setState(3);
 
+    weather->setState(4);
+    weather->setState(5);
+
+    ob1->requestSomething();
+    ob2->requestSomething();
 
 }

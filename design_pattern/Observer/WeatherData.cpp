@@ -35,3 +35,9 @@ void WeatherData::setState(int s)
     setChanged(true);
     notify();
 }
+
+void WeatherData::pullSomething(IObserver& o)
+{
+    o.activeDisplay(state_);
+
+}

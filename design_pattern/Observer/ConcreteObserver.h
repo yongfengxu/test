@@ -9,9 +9,12 @@ class ConcreteObserver: public IObserver
 public:
     ConcreteObserver(std::string name, IObservable* observable);
     ~ConcreteObserver();
+
     void display(int state) override;
+    void activeDisplay(int state) override;
 
     void setObservable(IObservable* observable);
+    void requestSomething();
 
     void subscribe();
     void unsubscribe();

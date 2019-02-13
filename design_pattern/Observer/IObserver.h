@@ -6,6 +6,7 @@ class IObserver
 public:
     virtual ~IObserver() = default;
     virtual void display(int state) = 0;
+    virtual void activeDisplay(int state) = 0;
 };
 
 #endif

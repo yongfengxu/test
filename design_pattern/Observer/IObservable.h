@@ -14,6 +14,8 @@ public:
 
     virtual void notify() = 0;
 
+    virtual void pullSomething(IObserver& o) = 0;
+
     virtual void setChanged(bool flag) = 0;
 };
 
