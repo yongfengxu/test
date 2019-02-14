@@ -3,6 +3,7 @@
 #include "Espresso.h"
 #include "HouseBlend.h"
 #include "Milk.h"
+#include "Mocha.h"
 
 
 int main()
@@ -12,8 +13,14 @@ int main()
     std::cout << "espresso " << espresso->cost() << std::endl;
 
     std::unique_ptr<IBeverage> milk = std::make_unique<Milk>(espresso.get());
-    milk->getDescription();
-    std::cout << "espresso + milk costs " << milk->cost() << std::endl;
+    std::cout << milk->getDescription() << " "<< milk->cost() << std::endl;
 
+    std::unique_ptr<IBeverage> mocha = std::make_unique<Mocha>(milk.get());
 
+    std::cout << mocha->getDescription() << " "<< mocha->cost() << std::endl;
+
+    std::unique_ptr<IBeverage> mocha2 = std::make_unique<Mocha>(espresso.get());
+
+    std::cout << mocha2->getDescription() << " "<< mocha2->cost() << std::endl;
 }
+

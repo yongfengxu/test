@@ -1,12 +1,12 @@
-#ifndef MILK_H_
-#define MILK_H_
+#ifndef MOCHA_H_
+#define MOCHA_H_
 
 #include "CondimentDecorator.h"
 
-class Milk : public CondimentDecorator
+class Mocha : public CondimentDecorator
 {
 public:
-    Milk(IBeverage* beverage);
+    Mocha(IBeverage* beverage);
     std::string getDescription() override;
     double cost() override;
 };

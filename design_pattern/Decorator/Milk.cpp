@@ -1,7 +1,8 @@
 #include "Milk.h"
 
 
-Milk::Milk(IBeverage* beverage): beverage_(beverage)
+Milk::Milk(IBeverage* beverage): CondimentDecorator(beverage)
+//Milk::Milk(IBeverage* beverage): beverage_(beverage)
 {
 }
 
@@ -12,5 +13,5 @@ std::string Milk::getDescription()
 
 double Milk::cost()
 {
-    return beverage_->cost() + 0.2;
+    return beverage_->cost() + 0.18;
 }

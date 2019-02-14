@@ -5,9 +5,12 @@
 class CondimentDecorator: public IBeverage
 {
 public:
-    //CondimentDecorator(IBeverage* beverage):beverage_(beverage) {}
+    CondimentDecorator(IBeverage* beverage):beverage_(beverage) {}
+
     virtual ~CondimentDecorator() = default;
-    //virtual std::string getDescription() = 0;
+    virtual std::string getDescription() = 0;
+
+    IBeverage* beverage_;
 
 
 };
