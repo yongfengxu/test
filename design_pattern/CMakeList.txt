@@ -1,0 +1,61 @@
+cmake_minimum_required (VERSION 2.6)
+project (Tutorial)
+
+# The version number.
+//"set"用来给对应的变量赋值
+set (Tutorial_VERSION_MAJOR 1)
+set (Tutorial_VERSION_MINOR 0)
+set(include_dir ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+//"MESSAGE"用来打印信息，包括变量的值
+MESSAGE(STATUS "include folder: " ${include_dir})
+
+//"option"用来定义宏，"ON"表示打开，"OFF"表示关闭
+option (USE_MYMATH "Use tutorial provided math implementation" ON)
+
+# configure a header file to pass some of the CMake settings
+# to the source code
+configure_file (
+  "${PROJECT_SOURCE_DIR}/TutorialConfig.h.in"
+  "${PROJECT_BINARY_DIR}/TutorialConfig.h"
+  )
+
+# add the binary tree to the search path for include files
+# so that we will find TutorialConfig.h
+//"include_directories"用来指定build时需要的头文件路径
+//"PROJECT_BINARY_DIR"是内置变量，表示工程编译的目录，也就是--prefix指定的目录
+include_directories("${PROJECT_BINARY_DIR}" "${include_dir}")
+
+if (USE_MYMATH)
+    include_directories(${include_dir})
+    //"add_subdirectory"用来添加外部项目目录，将指定的目录添加到build任务列表中。
+    //在这里"lib"目录是否需要编译，是通过宏USE_MYMATH控制，
+    //如果这个宏打开，就需要编译"lib"，也就是需要通过"add_sudirectory"添加"lib"
+    add_subdirectory(lib)
+    set(EXTRAL_LIBS ${EXTRAL_LIBS} MathFunctions)
+endif(USE_MYMATH)
+
+# add the executable
+// "add_executable"用来指定生成可执行文件，这里会生成Tutorial.out或者Tutorial.exe
+add_executable(Tutorial tutorial.c)
+
+// 由于tutorial.c中需要用到sqrt函数，这个函数要么来自于系统库，要么来自于自定义库，
+//因此这里需要通过"target_link_libraries"指定链家的libraries
+target_link_libraries(Tutorial m ${EXTRAL_LIBS}) # link to -lm
+
+install(TARGETS Tutorial DESTINATION bin)
+install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h" DESTINATION include)
+
+//引入CTest, 添加相应的测试用例，正确的测试结果通过set_tests_properties指定。
+//在这里也就是说sqrt(25) = 5,否则就会failed
+#include(CTest)
+MESSAGE(STATUS "Meditator testttttttttttt")
+enable_testing()
+add_test (TutorialRuns Tutorial 25)
+add_test (TutorialComp25 Tutorial 25)
+set_tests_properties(TutorialComp25 PROPERTIES PASS_REGULAR_EXPRESSION "25 is 5")
+
+//check_function_exists检查当前库是否支持log和exp，如果支持相应的宏就会打开。
+include(CheckFunctionExists)
+check_function_exists(log HAVE_LOG)
+check_function_exists(exp HAVE_EXP)

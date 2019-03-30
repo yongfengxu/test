@@ -6,6 +6,7 @@ public:
     IOperation() : numberA(0), numberB(0) {}
     virtual ~IOperation() = default;
     virtual double getResult() = 0;
+    void setNumber(int numA, int numB) {numberA = numA; numberB = numB;}
 
     double numberA;
     double numberB;
@@ -47,8 +48,7 @@ int main()
     IFactory* factory = new AddFactory();
     IOperation* operation = factory->createOperation();
 
-    operation->numberA = 2;
-    operation->numberB = 1;
+    operation->setNumber(2, 1);
 
     std::cout << operation->getResult() << std::endl;
 
@@ -59,9 +59,7 @@ int main()
 
     factory = new DelFactory();
     operation = factory->createOperation();
-
-    operation->numberA = 2;
-    operation->numberB = 1;
+    operation->setNumber(2, 1);
 
     std::cout << operation->getResult() << std::endl;
 
