@@ -2,17 +2,19 @@
 #define DIRECTOR_H_
 
 #include "ICar.h"
-#include "Builder.h"
+#include "IBuilder.h"
 
 class Director
 {
 public:
+    Director();
+    ~Director();
     ICar* getBMW();
     ICar* getAudi();
 
 private:
-    BMWBuilder bmwBuilder_;
-    AudiBuilder audiBuilder_;
+    IBuilder* bmwBuilder_;
+    IBuilder* audiBuilder_;
 };
 
 #endif
