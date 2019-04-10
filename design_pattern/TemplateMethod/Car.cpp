@@ -22,6 +22,11 @@ bool BMW::isAlarm()
     return true;
 }
 
+void BMW::setSequenceNumber(unsigned num)
+{
+    std::cout << "BMW sequence number set" << std::endl;
+    num_ = num;
+}
 
 void Audi::start()
 {
@@ -46,4 +51,10 @@ void Audi::setAlarm(bool alarm)
 bool Audi::isAlarm()
 {
     return isAlarm_;
+}
+
+void Audi::setSequenceNumber(unsigned num)
+{
+    std::cout << "Audi sequence number set" << std::endl;
+    num_ = num;
 }

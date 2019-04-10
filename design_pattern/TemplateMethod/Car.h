@@ -4,6 +4,8 @@
 
 class BMW : public ICar
 {
+public:
+    void setSequenceNumber(unsigned num) override;
 protected:
     void start() override;
     void ring() override;
@@ -19,6 +21,7 @@ public:
     Audi():isAlarm_(true) {}
     void setAlarm(bool alarm);
 
+    void setSequenceNumber(unsigned num) override;
 protected:
     void start() override;
     void ring() override;
