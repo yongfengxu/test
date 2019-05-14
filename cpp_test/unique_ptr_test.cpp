@@ -5,6 +5,7 @@
 #include <fstream>
 #include <cassert>
 #include <functional>
+#include <map>
 
 struct B {
   virtual void bar() { std::cout << "B::bar\n"; }
@@ -29,8 +30,37 @@ void close_file(std::FILE* fp)
     std::fclose(fp);
 }
 
+typedef std::map<int, D> MyMap;
+
+std::unique_ptr<MyMap> fun1()
+{
+    std::unique_ptr<MyMap> mm(new MyMap());
+
+    return mm;
+}
+
 int main()
 {
+
+    //auto p = std::make_unique<MyMap>(new MyMap());
+    auto p = fun1();
+    if (p)
+    {
+        std::cout << "p is not null" << std::endl;
+    }
+
+
+    if (p->empty())
+    {
+        std::cout << "p is empty" << std::endl;
+    }
+    else
+    {
+        std::cout << "p is not empty" << std::endl;
+    }
+
+    std::cout << p->size() << std::endl;
+
   std::cout << "unique ownership semantics demo\n";
   {
       auto p = std::make_unique<D>(); // p is a unique_ptr that owns a D
