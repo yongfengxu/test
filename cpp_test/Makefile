@@ -3,8 +3,7 @@
 TEST_BASE_PATH=./
 
 CC      := gcc
-#CXX     := clang++
-CXX     := g++
+CXX     := clang++
 LIBS    :=
 LDFLAGS :=
 DEFINES :=
