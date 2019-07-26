@@ -33,6 +33,14 @@ int main()
 
   m1.erase(55);
 
+
+  map<int, int> mm;
+  mm[1] = 1;
+  mm[2] = 2;
+
+  int a = mm[3];
+  cout << a << endl;
+
 	return 0;
 
 }
