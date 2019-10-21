@@ -7,39 +7,53 @@ using namespace std;
 class A
 {
 public:
-	A(int i, int j):a(i), b(j) {}
-	int a;
+    A(int i):v(i) { cout << "A()" << endl;}
+    A(const A& a);
+  ~A() {cout << "~A()" << endl;}
 
-	int b;
+private:
+	int v;
 
 };
+
+A::A(const A& a)
+{
+    cout << "Copy Construction" << endl;
+    v = a.v;
+}
 
 
 int main()
 {
 	map<int, A> m1;
 
-	A a1(1, 2);
-	A a2(3, 4);
 
-	m1.insert(make_pair(1, a1));
-	m1.insert(make_pair(2, a2));
+  m1.emplace(std::piecewise_construct, std::forward_as_tuple(1),
+             std::forward_as_tuple(3));
 
+
+  A a1(1);
+  m1.emplace(2, a1);
 
   /*
   auto result = m1.emplace(4, a1);
   cout << result.second << endl;
   */
 
-  m1.erase(55);
+  cout << "hello" << endl;
+  m1.erase(1);
+  m1.erase(2);
 
+  cout << "world" << endl;
 
+  /*
   map<int, int> mm;
   mm[1] = 1;
   mm[2] = 2;
 
   int a = mm[3];
   cout << a << endl;
+  */
 
 	return 0;
 
