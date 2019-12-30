@@ -1,4 +1,5 @@
 #include <iostream>
+#include <assert.h>
 #include <type_traits>
 
 #define A true
@@ -17,6 +18,7 @@ void fun(bool f1, bool f2)
 
 int main()
 {
-
+    assert(true);
+    assert(false);
     fun(true, true);
 }
