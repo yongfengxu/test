@@ -23,6 +23,17 @@ A::A(const A& a)
 }
 
 
+void test_advance()
+{
+    std::map<int, int> emptyMap;
+    auto t = emptyMap.begin();
+
+    std::advance(t, 2);
+
+    std::cout << t->first << " " << t->second << std::endl;
+}
+
+
 int main()
 {
 	map<int, A> m1;
@@ -54,6 +65,8 @@ int main()
   int a = mm[3];
   cout << a << endl;
   */
+
+  test_advance();
 
 	return 0;
 
