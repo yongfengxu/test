@@ -43,6 +43,25 @@
       )
   (dolist (n xlist) (insert n))) 
 
+;;dotimes is useful when you want to go through a list by a increasing index.
+;;
+;;(dotimes (VAR COUNT) BODY …) → Loop a certain number of times. Evaluate BODY with VAR bound to successive integers running from 0, inclusive, to COUNT, exclusive. Returns nil
+;;
+;;(dotimes (VAR COUNT RESULT) BODY …) → After loop, evaluate RESULT to get the return value.
+
+(dotimes (i 4)
+  (insert (number-to-string i))) ;; inserts "0123" returns nil
+
+(let ((v [3 4 5]))
+  (dotimes (i (length v))
+    (insert
+     (number-to-string
+      (elt v i))))) ;;inserts 345
+
+(let ((mylist '(a b c)))
+  (while mylist
+    (message "%s" (pop mylist))
+    (sleep-for 1)))
 
 
 
