@@ -28,20 +28,23 @@ void test_advance()
     std::map<int, int> emptyMap;
     auto t = emptyMap.begin();
 
+    std::cout << "hello world" << std::endl;
+
     std::advance(t, 2);
 
+    std::cout << "what's happening?" << std::endl;
+
     std::cout << t->first << " " << t->second << std::endl;
+
+    std::cout << "we'are here" << std::endl;
 }
 
+void magic_constructor() {
 
-int main()
-{
-	map<int, A> m1;
-
+  map<int, A> m1;
 
   m1.emplace(std::piecewise_construct, std::forward_as_tuple(1),
              std::forward_as_tuple(3));
-
 
   A a1(1);
   m1.emplace(2, a1);
@@ -65,6 +68,10 @@ int main()
   int a = mm[3];
   cout << a << endl;
   */
+}
+
+int main()
+{
 
   test_advance();
 

@@ -1,0 +1,4 @@
+A simple test for libenvent
+
+Build:
+# gcc test.c -o test -levent
