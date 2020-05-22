@@ -16,4 +16,6 @@ int main()
     cout << sizeof(vaa) << endl;
     cout << sizeof(saa) << endl;
 
+    int a = 1;
+    cout << sizeof(a) << endl;
 }
