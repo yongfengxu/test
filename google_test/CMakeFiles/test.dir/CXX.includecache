@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elmpprv/test/google_test/src/IBird.h
+
+/home/elmpprv/test/google_test/src/Trainer.h
+IBird.h
+/home/elmpprv/test/google_test/src/IBird.h
+
+/home/elmpprv/test/google_test/test-src/MockBird.h
+../src/IBird.h
+/home/elmpprv/test/google_test/src/IBird.h
+iostream
+-
+gmock/gmock.h
+/home/elmpprv/test/google_test/test-src/gmock/gmock.h
+
+/home/elmpprv/test/google_test/test-src/TrainerTest.cpp
+gmock/gmock.h
+/home/elmpprv/test/google_test/test-src/gmock/gmock.h
+gtest/gtest.h
+/home/elmpprv/test/google_test/test-src/gtest/gtest.h
+../src/Trainer.h
+/home/elmpprv/test/google_test/src/Trainer.h
+MockBird.h
+/home/elmpprv/test/google_test/test-src/MockBird.h
+
