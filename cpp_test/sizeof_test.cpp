@@ -4,6 +4,12 @@
 
 using namespace std;
 
+template <class T>
+static uint32_t getArrayLen(const T& array)
+{
+    return (sizeof(array) / sizeof(array[0]));
+}
+
 int main()
 {
     vector<int> va;
@@ -16,6 +22,7 @@ int main()
     cout << sizeof(vaa) << endl;
     cout << sizeof(saa) << endl;
 
-    int a = 1;
-    cout << sizeof(a) << endl;
+    int a[11];
+
+    std::cout << "sizeof a is " << getArrayLen(a) << std::endl;
 }
