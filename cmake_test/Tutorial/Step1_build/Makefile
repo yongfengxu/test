@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/charlie/workspace/test/cpp_core
+CMAKE_SOURCE_DIR = /home/charlie/workspace/test/cmake_test/Tutorial/Step1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/charlie/workspace/test/cpp_core
+CMAKE_BINARY_DIR = /home/charlie/workspace/test/cmake_test/Tutorial/Step1_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/charlie/workspace/test/cpp_core/CMakeFiles /home/charlie/workspace/test/cpp_core/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/charlie/workspace/test/cmake_test/Tutorial/Step1_build/CMakeFiles /home/charlie/workspace/test/cmake_test/Tutorial/Step1_build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/charlie/workspace/test/cpp_core/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/charlie/workspace/test/cmake_test/Tutorial/Step1_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,72 +123,32 @@ Tutorial/fast:
 	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
 .PHONY : Tutorial/fast
 
-#=============================================================================
-# Target rules for targets named C21
+tutorial.o: tutorial.cxx.o
 
-# Build rule for target.
-C21: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 C21
-.PHONY : C21
-
-# fast build rule for target.
-C21/fast:
-	$(MAKE) -f CMakeFiles/C21.dir/build.make CMakeFiles/C21.dir/build
-.PHONY : C21/fast
-
-C21.o: C21.cpp.o
-
-.PHONY : C21.o
+.PHONY : tutorial.o
 
 # target to build an object file
-C21.cpp.o:
-	$(MAKE) -f CMakeFiles/C21.dir/build.make CMakeFiles/C21.dir/C21.cpp.o
-.PHONY : C21.cpp.o
+tutorial.cxx.o:
+	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.o
+.PHONY : tutorial.cxx.o
 
-C21.i: C21.cpp.i
+tutorial.i: tutorial.cxx.i
 
-.PHONY : C21.i
-
-# target to preprocess a source file
-C21.cpp.i:
-	$(MAKE) -f CMakeFiles/C21.dir/build.make CMakeFiles/C21.dir/C21.cpp.i
-.PHONY : C21.cpp.i
-
-C21.s: C21.cpp.s
-
-.PHONY : C21.s
-
-# target to generate assembly for a file
-C21.cpp.s:
-	$(MAKE) -f CMakeFiles/C21.dir/build.make CMakeFiles/C21.dir/C21.cpp.s
-.PHONY : C21.cpp.s
-
-Tutorial.o: Tutorial.cpp.o
-
-.PHONY : Tutorial.o
-
-# target to build an object file
-Tutorial.cpp.o:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/Tutorial.cpp.o
-.PHONY : Tutorial.cpp.o
-
-Tutorial.i: Tutorial.cpp.i
-
-.PHONY : Tutorial.i
+.PHONY : tutorial.i
 
 # target to preprocess a source file
-Tutorial.cpp.i:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/Tutorial.cpp.i
-.PHONY : Tutorial.cpp.i
+tutorial.cxx.i:
+	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.i
+.PHONY : tutorial.cxx.i
 
-Tutorial.s: Tutorial.cpp.s
+tutorial.s: tutorial.cxx.s
 
-.PHONY : Tutorial.s
+.PHONY : tutorial.s
 
 # target to generate assembly for a file
-Tutorial.cpp.s:
-	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/Tutorial.cpp.s
-.PHONY : Tutorial.cpp.s
+tutorial.cxx.s:
+	$(MAKE) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/tutorial.cxx.s
+.PHONY : tutorial.cxx.s
 
 # Help Target
 help:
@@ -197,15 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... Tutorial"
-	@echo "... C21"
-	@echo "... C21.o"
-	@echo "... C21.i"
-	@echo "... C21.s"
-	@echo "... Tutorial.o"
-	@echo "... Tutorial.i"
-	@echo "... Tutorial.s"
+	@echo "... edit_cache"
+	@echo "... tutorial.o"
+	@echo "... tutorial.i"
+	@echo "... tutorial.s"
 .PHONY : help
 
 
