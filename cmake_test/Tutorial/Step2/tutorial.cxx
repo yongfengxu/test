@@ -28,6 +28,8 @@ int main (int argc, char *argv[])
   double outputValue = sqrt(inputValue);
 #endif
 
+  fprintf(stdout, "Charlie tags: %d!\n", Charlie_TAGS);
+
   fprintf(stdout,"The square root of %g is %g\n",
           inputValue, outputValue);
   return 0;

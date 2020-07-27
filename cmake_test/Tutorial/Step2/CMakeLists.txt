@@ -4,6 +4,7 @@ project (Tutorial)
 # The version number.
 set (Tutorial_VERSION_MAJOR 1)
 set (Tutorial_VERSION_MINOR 0)
+set (Charlie_TAGS 12)
 
 # should we use our own math functions
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
@@ -23,7 +24,7 @@ include_directories ("${PROJECT_BINARY_DIR}")
 if (USE_MYMATH)
   include_directories ("${PROJECT_SOURCE_DIR}/MathFunctions")
   add_subdirectory (MathFunctions)
-  set (EXTRA_LIBS ${EXTRA_LIBS} MathFunctions)
+  set (EXTRA_LIBS ${EXTRA_LIBS} mathfunctions)
 endif (USE_MYMATH)
 
 # add the executable
