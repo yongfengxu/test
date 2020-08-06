@@ -1,6 +1,8 @@
 #include <iostream>
+
 using namespace std;
-int main()
+
+void test()
 {
     char c[10] = "123456789";
     char* p = &c[1];
@@ -29,3 +31,30 @@ int main()
     //p3 = &c[0];
     cout << "after *p3 = 'd', value = " << *p3 << endl;
 }
+
+int main()
+{
+    int i = 0;
+    const int v2 = 0; // top-level const
+    int v1 = v2;
+    int *p1 = &v1;
+    int &r1 = v1;
+    const int *p2 = &v2; // low-level const
+    const int *const p3 = &i; //low-level const and top-level const
+    const int &r2 = v2; // low-level const
+
+    r1 = v2; // legal
+
+    // error: assigning to 'int *' from incompatible type 'const int *'
+    // p1 = p2; // p2 has low-level const, p1 doesn't have. so this expression is illegal
+
+    p2 = p1; // p1 doesn't have low-level const, non-const can convert to const
+
+    // error: assigning to 'int *' from incompatible type 'const int *const'
+    // p1 = p ; // p3 has low-level const, p1 doesn't have. 
+    p2 = p3; // two variables all have low-level const, legal
+
+    int null = 0;
+    int *p = &null;
+}
+

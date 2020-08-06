@@ -8,7 +8,7 @@ LIBS    :=
 LDFLAGS :=
 DEFINES :=
 INCLUDE := -I.
-CFLAGS  := -g -std=c++14 -fsanitize=address -fsanitize-address-use-after-scope -fno-omit-frame-pointer -Wall -O $(DEFINES) $(INCLUDE)
+CFLAGS  := -g -std=c++17 -fsanitize=address -fsanitize-address-use-after-scope -fno-omit-frame-pointer -Wall -O $(DEFINES) $(INCLUDE)
 
 CXXFLAGS:= $(CFLAGS) -DHAVE_CONFIG_H
 
