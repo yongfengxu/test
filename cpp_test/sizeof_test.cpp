@@ -22,7 +22,13 @@ int main()
     cout << sizeof(vaa) << endl;
     cout << sizeof(saa) << endl;
 
-    int a[11];
+    int a = 1;
+    cout << "sizeof(int) = " << sizeof(a) << endl;
 
-    std::cout << "sizeof a is " << getArrayLen(a) << std::endl;
+    uint8_t ua = 1;
+    cout << "sizeof(uint8_t) = " << sizeof(ua) << endl;
+
+    cout << "sizeof(long) = " << sizeof(long) << endl;
+    cout << "sizeof(long long) = " << sizeof(long long) << endl;
+
 }

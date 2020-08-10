@@ -1,7 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <cstdlib>
-
 #include <stdio.h>
 
 int func(int n)

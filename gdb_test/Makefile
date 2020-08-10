@@ -1,5 +1,6 @@
 
-CXX=/app/gcc/4.8.1/LMWP3/bin/g++ -std=c++11 -g
+#CXX=/app/gcc/4.8.1/LMWP3/bin/g++ -std=c++11 -g
+CXX=g++ -std=c++11 -g
 TEST_BASE_PATH=./
 
 
