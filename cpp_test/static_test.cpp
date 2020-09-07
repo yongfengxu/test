@@ -28,7 +28,7 @@ public:
 
   private:
     static const double PI;
-    static const int num = 3.14;
+    static const int num = 3;
 
     static map<int, int> myMap1;
     static map<int, int> myMap2;
@@ -39,6 +39,15 @@ const double Test::PI = 3.14;
 map<int, int> Test::myMap1;
 map<int, int> Test::myMap2;
 map<int, int> Test::myMap3;
+
+class Example
+{
+public:
+    static constexpr double rate = 2.5;
+    static constexpr int vsize = 20;
+    //static std::vector<int> v(2);
+
+};
 
 int main()
 {
