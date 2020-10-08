@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #for example, if you want to download 3.15.3 install packets
-majorVersion=3.15
-minorVersion=3
+majorVersion=3.18
+minorVersion=4
 fullVersion=$majorVersion.$minorVersion
 TARGET=/home/elmpprv/projs
 INSTALLPACKET=cmake-$fullVersion.tar.gz
