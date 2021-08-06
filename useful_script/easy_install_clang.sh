@@ -6,7 +6,7 @@ cd llvm-project
 mkdir build
 cd build
 
-cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/home/elmpprv/projs -DCMAKE_C_COMPILER=/home/elmpprv/projs/bin/gcc -DCMAKE_CXX_COMPILER=/home/elmpprv/projs/bin/g++ -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_ASSERTIONS=On ../llvm
+cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/home/elmpprv/projs -DCMAKE_C_COMPILER=/home/elmpprv/projs/bin/gcc -DCMAKE_CXX_COMPILER=/home/elmpprv/projs/bin/g++ -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_ASSERTIONS=On -DLLVM_ENABLE_PROJECTS="clang;libcxx;libcxxabi" ../llvm
 
 make -j4
 

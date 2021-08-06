@@ -1,7 +1,18 @@
 #include <iostream>
 
+
+void uint16_range()
+{
+    std::cout << UINT16_MAX << std::endl;
+    std::cout << INT16_MAX << std::endl;
+}
+
 int main()
 {
+
+    uint16_range();
+
+    std::cout << "-------------------------------" << std::endl;
     unsigned u = 10, u2 = 42;
     std::cout << u2 - u << std::endl;   // 32
     std::cout << u - u2 << std::endl;   // 4294967264

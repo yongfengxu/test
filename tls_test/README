@@ -1,0 +1,2 @@
+g++ server.cpp -o server -L/repo/elmpprv/opt/openssl/lib -lssl -lcrypto
+g++ client.cpp -o client -L/repo/elmpprv/opt/openssl/lib -lssl -lcrypto
