@@ -1,1 +1,0 @@
-/proj/epg-tools/compilers/gcc9.2.0-rhel7.6-binutils2.32.gold/bin/c++     CMakeFiles/test.dir/test-src/TrainerTest.cpp.o  -o test  -L/home/elmpprv/projs/lib64 -Wl,-rpath,/home/elmpprv/projs/lib64 -lgtest_main -lgmock -lgtest -lpthread 
